@@ -1,1 +1,1 @@
-# chyuhang.Snake.github.io
+# chyuhang.github.io
