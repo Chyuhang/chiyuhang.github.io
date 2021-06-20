@@ -13,7 +13,7 @@ body {
     top: 10px;
     left: 227px;
     width: 200px;
-    height: 150px;
+    height: 200px;
     font-size: 117px;
     font-family: cursive;
     border-radius: 50px;
@@ -25,10 +25,10 @@ body {
 }
 .xia {
     position: absolute;
-    top: 182px;
+    top: 217px;
     left: 227px;
     width: 200px;
-    height: 150px;
+    height: 200px;
     font-size: 117px;
     font-family: cursive;
     border-radius: 50px;
@@ -40,10 +40,10 @@ body {
 }
 .zuo {
     position: absolute;
-    top: 84px;
+    top: 108px;
     left: 14px;
     width: 200px;
-    height: 150px;
+    height: 200px;
     font-size: 117px;
     font-family: cursive;
     border-radius: 50px;
@@ -55,10 +55,10 @@ body {
 }
 .you {
     position: absolute;
-    top: 84px;
+    top: 108px;
     left: 435px;
     width: 200px;
-    height: 150px;
+    height: 200px;
     font-size: 117px;
     font-family: cursive;
     border-radius: 50px;
