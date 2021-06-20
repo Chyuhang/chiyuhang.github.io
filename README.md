@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>贪吃蛇</title>
+    <link rel="stylesheet" href="贪吃蛇.css">
+</head>
+<body>
+<div class="container">
+    <div class="heading">
+        <h1 class="title">贪吃蛇</h1>
 
-You can use the [editor on GitHub](https://github.com/Chyuhang/chyuhang.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+        <input class="DXX" value="26">
+        <input class="DXY" value="26">
+        <div class="health">
+            <div class="health-blood"></div>
+            <div class="health-blood"></div>
+            <div class="health-blood"></div>
+        </div>
+        <div class="tool1">
+            <div class="tool-boom"></div>
+            <span class="boom">3</span>
+        </div>
+        <div class="tool2">
+            <div class="tool-key"></div>
+            <span class="keyNumeber">3</span>
+        </div>
+        <button id="restart">新游戏</button>
+        <button id="restart1" class="silver">传统模式</button>
+        <button id="restart2">自定义模式</button>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        <div class="score-container score">0</div>
+        <div class="score-container best">0</div>
+        <div class="xvkbmusic kb"></div>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Chyuhang/chyuhang.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    </div>
+    <div class="game-container">
+        <div class="game-message">
+        </div>
+        <div class="grid-container">
+        </div>
+        <div class="tile-container">
+        </div>
+    </div>
+    <p class="game-explanation">
+        <strong class="important">提示:</strong> 按方向键[→]即可开玩
+        <button class="moyumode">摸鱼模式</button>
+    </p>
+    <script src="贪吃蛇.js"></script>
+    <script>
+        new Slider({
+            element: document.querySelector('.container')
+        })
+    </script>
+</div>
+</body>
+</html>
