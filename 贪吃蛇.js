@@ -754,6 +754,38 @@ class Slider {
         }, this.time * 2)
     }
 
+    moveSXZY() {
+        let zuo = e('.zuo')
+        let shang = e('.shang')
+        let xia = e('.xia')
+        let you = e('.you')
+        zuo.addEventListener('click', () => {
+            if (this.key !== 'Right') {
+                this.moveLeft()
+                this.key = 'Left'
+            }
+        })
+        shang.addEventListener('click', () => {
+            if (this.key !== 'Down') {
+                this.moveUp()
+                this.key = 'Up'
+            }
+        })
+        xia.addEventListener('click', () => {
+            if (this.key !== 'Up') {
+                this.moveDown()
+                this.key = 'Down'
+            }
+        })
+        you.addEventListener('click', () => {
+            if (this.key !== 'Left') {
+                // log('this.key !== left' , this.key !== 'Left')
+                this.moveRight()
+                this.key = 'Right'
+            }
+        })
+    }
+
     move() {
         // log('this.start', this.start)
         addEventListener('keydown', (event) => {
@@ -778,6 +810,8 @@ class Slider {
                 }
             }
         })
+        this.moveSXZY()
+
     }
 
     starGame() {
