@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>贪吃蛇</title>
+    <link rel="stylesheet" href="贪吃蛇.css">
+</head>
+<body>
+<div class="container">
+    <div class="heading">
+        <h1 class="title">贪吃蛇</h1>
+
+        <input class="DXX" value="26">
+        <input class="DXY" value="26">
+        <div class="health">
+            <div class="health-blood"></div>
+            <div class="health-blood"></div>
+            <div class="health-blood"></div>
+        </div>
+        <div class="tool1">
+            <div class="tool-boom"></div>
+            <span class="boom">3</span>
+        </div>
+        <div class="tool2">
+            <div class="tool-key"></div>
+            <span class="keyNumeber">3</span>
+        </div>
+        <button id="restart">新游戏</button>
+        <button id="restart1" class="silver">传统模式</button>
+        <button id="restart2">自定义模式</button>
+
+        <div class="score-container score">0</div>
+        <div class="score-container best">0</div>
+        <div class="xvkbmusic kb"></div>
+
+    </div>
+    <div class="game-container">
+        <div class="game-message">
+        </div>
+        <div class="grid-container">
+        </div>
+        <div class="tile-container">
+        </div>
+    </div>
+    <p class="game-explanation">
+        <strong class="important">提示:</strong> 按方向键[→]即可开玩
+        <button class="moyumode">摸鱼模式</button>
+    </p>
+    <script src="贪吃蛇.js"></script>
+    <script>
+        new Slider({
+            element: document.querySelector('.container')
+        })
+    </script>
+</div>
+</body>
+</html>
