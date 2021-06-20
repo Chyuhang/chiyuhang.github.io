@@ -1,0 +1,1063 @@
+html {
+    background: #ffeac19e;
+}
+body {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-152%);}
+.title {
+    /*margin: auto;*/
+}
+.silver {
+    color: silver;
+}
+.grid-cell {
+    height: 25px;
+    width: 25px;
+    /*background: #93ff97a6;*/
+    display: inline-block;
+    border-color: black;
+    border-style: outset;
+    border-width: 0px;
+    background-image: url("img/银色的命运女神-0002_爱给网_aigei_com.png");
+    background-size: 100%;
+    transition: margin-left 0.2s;
+}
+
+.cao {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.cao::after {
+    content: "";
+    background: url('img/cao.png') no-repeat;
+    /*opacity: 0.5;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 97%;
+    background-position-y: 0px;
+    /*animation: shenTiTu 0.5s infinite;*/
+}
+
+.cao2 {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.cao2::after {
+    content: "";
+    background: url('img/cao2.png') no-repeat;
+    /*opacity: 0.5;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 100%;
+    background-position-y: 0px;
+    /*animation: shenTiTu 0.5s infinite;*/
+}
+
+.uvditu {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.uvditu::after {
+    content: "";
+    background: url('img/uvditu.png') no-repeat;
+    /*opacity: 0.5;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 132%;
+    border-radius: 38px;
+    /*animation: shenTiTu 0.5s infinite;*/
+}
+
+.boomSakaLaka {
+    /*background: url('img/tool.png') no-repeat;*/
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    /*background-color: #4b7617;*/
+}
+
+.boomSakaLaka::after {
+    content: "";
+    background: url('img/tool.png') no-repeat;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 136px 138px;
+    background-position-y: 0px;
+    animation: boomSakaLaka 0.5s infinite, showSlow 0.5s;
+}
+
+@keyframes boomSakaLaka {
+    0%{background-position:95.714% 78.528%}
+    20%{background-position: 95.714% 78.528%}
+    20.001%{background-position: 72.857% 78.528%}
+    40%{background-position: 72.857% 78.528%}
+    40.001%{background-position: 50% 78.528%}
+    60%{background-position: 50% 78.528%}
+    60.001%{background-position:50% 39.264%}
+    80%{background-position: 50% 39.264%}
+    80.001%{background-position:95.714% 0}
+    100%{background-position: 95.714% 0}
+}
+
+.blood {
+    /*background: url('img/tool.png') no-repeat;*/
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    /*background-color: #4b7617;*/
+}
+
+.blood::after {
+    content: "";
+    background: url('img/tool2.png') no-repeat -104px -41px;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 166px 111px;
+    background-position-y: -43px;
+    background-color: white;
+    border-radius: 40px;
+    animation: blood 0.5s infinite, showSlow 0.5s;
+}
+
+@keyframes blood {
+    0%{background-position-y: -43px}
+    25%{background-position-y: -43px}
+    25.001%{background-position-y: -42px}
+    50%{background-position-y: -42px}
+    50.001%{background-position-y:  -41px}
+    75%{background-position-y:  -41px}
+    75.001%{background-position-y: -42px}
+    100%{background-position-y: -42px}
+}
+
+.key {
+    /*background: url('img/tool.png') no-repeat;*/
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    /*background-color: #4b7617;*/
+}
+
+.key::after {
+    content: "";
+    background: url(img/tool2.png) no-repeat 71.918% 7.895%;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 166px;
+    background-position-x: -102px;
+    animation: key 0.5s infinite, showSlow 0.5s;
+}
+
+@keyframes key {
+    0%{background-position-y: -4px}
+    25%{background-position-y: -4px}
+    25.001%{background-position-y: -3px}
+    50%{background-position-y: -3px}
+    50.001%{background-position-y:  -4px}
+    75%{background-position-y:  -4px}
+    75.001%{background-position-y: -5px}
+    100%{background-position-y: -5px}
+}
+
+.kb {
+    position: absolute;
+    background: url(img/xvkb.png) 45.787% 87.63%;
+    cursor: pointer;
+    height: 23px;
+    width: 26px;
+    display: inline-block;
+    top: 133px;
+    left: 190px;
+}
+
+.kbMove {
+    position: absolute;
+    background: url(img/xvkb.png);
+    cursor: pointer;
+    height: 27px;
+    width: 25px;
+    display: inline-block;
+    top: 132px;
+    left: 188px;
+    margin-left: 3px;
+    animation: kbMove 0.5s infinite;
+}
+.kbMove:hover {
+    position: absolute;
+    background: url(img/xvkb.png) 54.775% 3.94%;
+    animation: kb 0.5s infinite;
+    /* margin-bottom: -15px; */
+    height: 28px;
+    display: inline-block;
+}
+
+@keyframes kbMove {
+    0%{background-position: 54.318% 10.673%}
+    25%{background-position: 54.318% 10.673%}
+    25.1%{background-position: 69.663% 10.776%}
+    50%{background-position: 69.663% 10.776%}
+    50.1%{background-position: 77.095% 10.673%}
+    75%{background-position: 77.095% 10.673%}
+    75.1%{background-position: 62.36% 10.776%}
+    100%{background-position: 62.36% 10.776%}
+}
+
+.kb:hover {
+    position: absolute;
+    background: url(img/xvkb.png) 54.775% 3.94%;
+    animation: kb 0.5s infinite;
+    /* margin-bottom: -15px; */
+    top: 132px;
+    display: inline-block;
+}
+@keyframes kb {
+    0%{background-position: 54.775% 3.94%}
+    90%{background-position: 54.775% 3.94%}
+    90.1%{background-position: 63.764% 3.94%}
+    100%{background-position: 63.764% 3.94%}
+}
+
+/*.yanWu::after {*/
+/*    content: "";*/
+/*    background: url('img/yanWu.png') no-repeat;*/
+/*    !* opacity: 0.5; *!*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    position: absolute;*/
+/*    z-index: 2;*/
+/*    background-size: 295px;*/
+/*    background-position-y: 0px;*/
+/*    animation: yanWu 2s;*/
+/*}*/
+
+/*@keyframes yanWu {*/
+/*    0%{background-position:2.902% 14.513%}*/
+/*    6.66666%{background-position: 2.902% 14.513%}*/
+/*    6.666661%{background-position: 25.376% 13.655%}*/
+/*    13.33333%{background-position: 25.376% 13.655%}*/
+/*    13.333331%{background-position: 46.234% 8.28%}*/
+/*    20%{background-position: 46.234% 8.28%}*/
+/*    20.001%{background-position: 66.879% 7.006%}*/
+/*    26.66666%{background-position: 66.879% 7.006%}*/
+/*    26.666661%{background-position:87.312% 4.741%}*/
+/*    33.33333%{background-position: 87.312% 4.741%}*/
+/*    33.333331%{background-position:4.357% 24.197%}*/
+/*    40%{background-position: 4.357% 24.197%}*/
+/*    40.001%{background-position: 25.217% 23.504%}*/
+/*    46.66666%{background-position: 25.217% 23.504%}*/
+/*    46.666661%{background-position: 46.104% 22.912%}*/
+/*    53.33333%{background-position: 46.104% 22.912%}*/
+/*    53.333331%{background-position: 66.667% 22.601%}*/
+/*    60%{background-position: 66.667% 22.601%}*/
+/*    60.001%{background-position:86.994% 22.081%}*/
+/*    66.66666%{background-position: 86.994% 22.081%}*/
+/*    66.666661%{background-position:5.33% 41.201%}*/
+/*    73.33333%{background-position: 5.33% 41.201%}*/
+/*    73.333331%{background-position: 25.847% 40.947%}*/
+/*    80%{background-position: 25.847% 40.947%}*/
+/*    80.001%{background-position: 45.975% 41.785%}*/
+/*    86.66666%{background-position: 45.975% 41.785%}*/
+/*    86.666661%{background-position: 66.385% 41.582%}*/
+/*    93.33333%{background-position: 66.385% 41.582%}*/
+/*    93.333331%{background-position:86.498% 41.331%}*/
+/*    100%{background-position: 86.498% 41.331%}*/
+/*}*/
+.xiangjing1 {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.xiangjing1::after {
+    content: "";
+    background: url('img/xianjing.png') no-repeat -5px -3px;
+    /*opacity: 0.5;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 120px;
+    background-position-y: -3px;
+    background-position-x: -3px;
+    /*animation: shenTiTu 0.5s infinite;*/
+}
+
+.xiangjing2 {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.xiangjing2::after {
+    content: "";
+    background: url('img/xianjing.png') no-repeat -36px -4px;
+    /*opacity: 0.5;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 129px;
+    /*background-position-y: 0px;*/
+    /*animation: shenTiTu 0.5s infinite;*/
+}
+
+.xiangjing3 {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.xiangjing3::after {
+    content: "";
+    background: url('img/huoYan.png') no-repeat;
+    /* opacity: 0.5; */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 274px;
+    /* background-position-X: 71%; */
+    animation: huoYan 0.5s infinite;
+}
+
+@keyframes huoYan {
+    0%{background-position: 2.557% 13.208%}
+    16.666%{background-position: 2.557% 13.208%}
+    16.6661%{background-position: 15.954% 12.963%}
+    33.333%{background-position: 15.954% 12.963%}
+    33.3331%{background-position:  29.513% 11.538%}
+    50%{background-position:  29.513% 11.538%}
+    50.001%{background-position: 43.429% 14.545%}
+    66.666%{background-position: 43.429% 14.545%}
+    66.6661%{background-position:  57.02% 12.727%}
+    83.333%{background-position:  57.02% 12.727%}
+    83.3331%{background-position: 70.94% 11.111%}
+    100%{background-position: 70.94% 11.111%}
+}
+
+.superStar {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.superStar::after {
+    content: "";
+    background: url('img/superStar.png') no-repeat;
+    /* opacity: 0.5; */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 231px;
+    /* background-position-X: 71%; */
+    animation: superStar 0.57s infinite;
+}
+
+@keyframes superStar {
+    0%{background-position: 17.789% 2.849%}
+    16.666%{background-position: 17.789% 2.849%}
+    16.6661%{background-position: 30.137% 2.849%}
+    33.333%{background-position: 30.137% 2.849%}
+    33.3331%{background-position:  42.55% 2.849%}
+    50%{background-position:  42.55% 2.849%}
+    50.001%{background-position: 54.267% 2.849%}
+    66.666%{background-position: 54.267% 2.849%}
+    66.6661%{background-position:  66.225% 2.849%}
+    83.333%{background-position:  66.225% 2.849%}
+    83.3331%{background-position: 78.938% 2.849%}
+    100%{background-position: 78.938% 2.849%}
+}
+
+.zhangAi1 {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.zhangAi1::after {
+    content: "";
+    background: url('img/zhangAi.png') no-repeat 2.913% 1.31%;
+    /*opacity: 0.5;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 125px;
+    /*background-position-y: 0px;*/
+    /*animation: shenTiTu 0.5s infinite;*/
+}
+
+.zhangAi2 {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.zhangAi2::after {
+    content: "";
+    background: url('img/zhangAi.png') no-repeat 33.663% 1.316%;
+    /*opacity: 0.5;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 121px;
+    /*background-position-y: 0px;*/
+    /*animation: shenTiTu 0.5s infinite;*/
+}
+
+.zhangAi3 {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.zhangAi3::after {
+    content: "";
+    background: url('img/zhangAi.png') no-repeat 95.192% 42.795%;
+    /*opacity: 0.5;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 125px;
+    /*background-position-y: 0px;*/
+    /*animation: shenTiTu 0.5s infinite;*/
+}
+
+.shenTiTu {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.shenTiTu::after {
+    content: "";
+    background: url('img/shenTiTu.png') no-repeat 57.018% 5.128%;
+    /*opacity: 0.5;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 147%;
+    background-position-y: -2px;
+    animation: shenTiTu 0.5s infinite;
+}
+
+@keyframes shenTiTu {
+    0%{background-size: 884% 252%}
+    25%{background-size: 884% 252%}
+    25.001%{background-size: 856% 264%}
+    50%{background-size: 856% 264%}
+    50.001%{background-size: 884% 252%}
+    75%{background-size: 884% 252%}
+    75.001%{background-size:961% 250%}
+    100%{background-size: 961% 250%}
+}
+
+.score {
+    position: absolute;
+    display: inline-block;
+
+    left: 364px;
+    font-family: fantasy;
+    font-size: 21px;
+}
+
+.best {
+    position: absolute;
+    display: inline-block;
+    padding: 0px;
+    left: 491px;
+    font-family: fantasy;
+    font-size: 21px;
+}
+
+.health {
+    height: 30px;
+}
+
+.health-blood{
+    display: table-cell;
+    background: url('img/health-blood.png') 1.538% 5.556%;
+    width: 30px;
+    height: 30px;
+    background-size: 531%;
+}
+.tool {
+    position: relative;
+    margin: 4px 0px;
+}
+.tool-boom {
+    display: inline-block;
+    background: url(img/tool.png) 25.564% 1.775%;
+    width: 30px;
+    height: 30px;
+    background-size: 580%;
+}
+.boom {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 108px;
+    left: 39px;
+    font-family: fantasy;
+    font-size: 21px;
+}
+
+.tool-key {
+    display: inline-block;
+    background: url('img/tool2.png') 71.918% 7.895%;
+    width: 30px;
+    height: 30px;
+    margin-left: -2px;
+    background-size: 627%;
+}
+.keyNumeber {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 136px;
+    left: 39px;
+    font-family: fantasy;
+    font-size: 21px;
+}
+
+
+
+.shetou {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.shetou::after {
+    content: "";
+    background: url('img/shetou.png') no-repeat center;
+    /*opacity: 0.5;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 10 !important;
+    background-size: 911% 132%;
+    animation: shetou 0.5s infinite;
+}
+
+@keyframes shetou {
+    0%{background-position: 0.877% 28.571%}
+    75%{background-position: 0.877% 28.571%}
+    75.001%{background-position: 14.912% 50%}
+    100%{background-position: 14.912% 50%}
+}
+
+.shetouMoveRight {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.shetouMoveRight::after {
+    content: "";
+    background: url('img/shetouMoveRight.png') no-repeat center;
+    /*opacity: 0.5;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 1760%;
+    animation: shetouMoveRight 0.5s infinite;
+}
+
+@keyframes shetouMoveRight {
+    0%{background-position: 3.719% 46.154%}
+    25%{background-position: 3.719% 46.154%}
+    25.001%{background-position: 17.078% 39.394%}
+    50%{background-position: 17.078% 39.394%}
+    50.001%{background-position:  56.468% 43.243%}
+    75%{background-position:  56.468% 43.243%}
+    75.001%{background-position: 43.606% 46.809%}
+    100%{background-position: 43.606% 46.809%}
+}
+
+.shetouMoveLeft {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.shetouMoveLeft::after {
+    content: "";
+    background: url('img/shetouMoveLeft.png') no-repeat center;
+    /*opacity: 0.5;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 1760%;
+    animation: shetouMoveLeft 0.5s infinite;
+}
+
+@keyframes shetouMoveLeft {
+    0%{background-position: 96.281% 46.154%}
+    25%{background-position: 96.281% 46.154%}
+    25.001%{background-position: 82.922% 39.394%}
+    50%{background-position: 82.922% 39.394%}
+    50.001%{background-position:  43.532% 43.243%}
+    75%{background-position:  43.532% 43.243%}
+    75.001%{background-position: 56.394% 46.809%}
+    100%{background-position: 56.394% 46.809%}
+}
+
+.shetouMoveUp1 {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.shetouMoveUp1::after {
+    content: "";
+    background: url('img/shetouMoveUp1.png') no-repeat center;
+    /*opacity: 0.5;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 208%;
+    animation: shetouMoveUp1 0.5s infinite;
+}
+
+@keyframes shetouMoveUp1 {
+    0%{background-position: 53.846% 96.281%}
+    25%{background-position: 53.846% 96.281%}
+    25.001%{background-position: 60.606% 82.922%}
+    50%{background-position: 60.606% 82.922%}
+    50.001%{background-position:  56.757% 43.532%}
+    75%{background-position:  56.757% 43.532%}
+    75.001%{background-position: 53.191% 56.394%}
+    100%{background-position: 53.191% 56.394%}
+}
+
+.shetouMoveUp2 {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.shetouMoveUp2::after {
+    content: "";
+    background: url('img/shetouMoveUp2.png') no-repeat center;
+    /*opacity: 0.5;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 208%;
+    animation: shetouMoveUp2 0.5s infinite;
+}
+
+@keyframes shetouMoveUp2 {
+    0%{background-position: 46.154% 96.281%}
+    25%{background-position: 46.154% 96.281%}
+    25.001%{background-position: 39.394% 82.922%}
+    50%{background-position: 39.394% 82.922%}
+    50.001%{background-position:  43.243% 43.532%}
+    75%{background-position:  43.243% 43.532%}
+    75.001%{background-position: 46.809% 56.394%}
+    100%{background-position: 46.809% 56.394%}
+}
+
+.shetouMoveDown1 {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.shetouMoveDown1::after {
+    content: "";
+    background: url('img/shetouMoveDown1.png') no-repeat center;
+    /*opacity: 0.5;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 208%;
+    animation: shetouMoveDown1 0.5s infinite;
+}
+
+@keyframes shetouMoveDown1 {
+    0%{background-position: 46.154% 3.719%}
+    25%{background-position: 46.154% 3.719%}
+    25.001%{background-position: 39.394% 17.078%}
+    50%{background-position: 39.394% 17.078%}
+    50.001%{background-position:  43.243% 56.468%}
+    75%{background-position:  43.243% 56.468%}
+    75.001%{background-position: 46.809% 43.606%}
+    100%{background-position: 46.809% 43.606%}
+}
+
+.shetouMoveDown2 {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.shetouMoveDown2::after {
+    content: "";
+    background: url('img/shetouMoveDown2.png') no-repeat center;
+    /*opacity: 0.5;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 208%;
+    animation: shetouMoveDown2 0.5s infinite;
+}
+
+@keyframes shetouMoveDown2 {
+    0%{background-position: 53.846% 3.719%}
+    25%{background-position: 53.846% 3.719%}
+    25.001%{background-position: 60.606% 17.078%}
+    50%{background-position: 60.606% 17.078%}
+    50.001%{background-position:  56.757% 56.468%}
+    75%{background-position:  56.757% 56.468%}
+    75.001%{background-position: 53.191% 43.606%}
+    100%{background-position: 53.191% 43.606%}
+}
+
+/*.mogu {*/
+/*    background: url('img/mogu.png') no-repeat center;*/
+/*    background-size: 147%;*/
+/*    width: 25px;*/
+/*    height: 25px;*/
+/*    animation: mogu 0.5s infinite;*/
+/*    background-color: #4b7617;*/
+/*}*/
+.mogu1 {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.mogu1::after {
+    content: "";
+    background: url('img/mogu1.png') no-repeat center;
+    /*opacity: 0.5;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 147%;
+    /*background-color: #abffa373;*/
+    /*border-radius: 40px;*/
+    animation: mogu1 0.5s infinite, showSlow 0.8s;
+}
+
+@keyframes mogu1 {
+    0%{background-position-y: -6.5px}
+    25%{background-position-y: -6.5px}
+    25.001%{background-position-y: -5.5px}
+    50%{background-position-y: -5.5px}
+    50.001%{background-position-y:  -4.5px}
+    75%{background-position-y:  -4.5px}
+    75.001%{background-position-y: -5.5px}
+    100%{background-position-y: -5.5px}
+}
+
+.mogu2 {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.mogu2::after {
+    content: "";
+    background: url('img/mogu2.png') no-repeat center;
+    /*opacity: 0.5;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 110%;
+    background-color: #abffa373;
+    border-radius: 40px;
+    animation: mogu2 0.5s infinite, showSlow 0.8s;
+}
+
+@keyframes mogu2 {
+    0%{background-position-y: -0.5px}
+    25%{background-position-y: -0.5px}
+    25.001%{background-position-y: 0.5px}
+    50%{background-position-y: 0.5px}
+    50.001%{background-position-y:  1.5px}
+    75%{background-position-y:  1.5px}
+    75.001%{background-position-y: 0.5px}
+    100%{background-position-y: 0.5px}
+}
+
+
+.mogu3 {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.mogu3::after {
+    content: "";
+    background: url('img/mogu3.png') no-repeat center;
+    /*opacity: 0.5;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-size: 147%;
+    background-color: #abffa373;
+    border-radius: 40px;
+    animation: mogu3 0.5s infinite, showSlow 0.8s;
+}
+
+@keyframes mogu3 {
+    0%{background-position-y: -6.5px}
+    25%{background-position-y: -6.5px}
+    25.001%{background-position-y: -5.5px}
+    50%{background-position-y: -5.5px}
+    50.001%{background-position-y:  -4.5px}
+    75%{background-position-y:  -4.5px}
+    75.001%{background-position-y: -5.5px}
+    100%{background-position-y: -5.5px}
+}
+
+@keyframes showSlow {
+    0%{opacity: 0.0;}
+    20%{opacity: 0.0;}
+    20.001%{opacity: 0.2;}
+    40%{opacity: 0.2;}
+    40.001%{opacity: 0.4;}
+    60%{opacity: 0.4;}
+    60.001%{opacity: 0.6;}
+    80%{opacity: 0.6;}
+    80.001%{opacity: 0.8;}
+    90%{opacity: 0.8;}
+    90.001%{opacity: 0.9;}
+    95%{opacity: 0.9;}
+    95.001%{opacity: 1;}
+    100%{opacity: 1;}
+}
+
+@keyframes showSlow2 {
+    0%{opacity: 1.0;}
+    20%{opacity: 1.0;}
+    20.001%{opacity: 0.8;}
+    40%{opacity: 0.8;}
+    40.001%{opacity: 0.6;}
+    60%{opacity: 0.6;}
+    60.001%{opacity: 0.5;}
+    80%{opacity: 0.5;}
+    80.001%{opacity: 0.4;}
+    90%{opacity: 0.4;}
+    90.001%{opacity: 0.2;}
+    95%{opacity: 0.2;}
+    95.001%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+.apple {
+    background: url('img/apple.png') no-repeat center;
+    background-size: 102% 100%;
+    width: 25px;
+    height: 25px;
+    background-position-y: 0px;
+    background-color: #4b7617;
+}
+
+.grid-row {
+    display: flex;
+}
+.grid-container {
+    position: absolute;
+}
+
+.sakesake {
+    animation: sakesake 0.3s, sakesake 0.3s, sakesake 0.3s, sakesake 0.3s;
+}
+
+@keyframes sakesake {
+    0%{margin-left: 0%}
+    7.692%{margin-left: 0%}
+    7.6921%{margin-left: 2%}
+    15.384%{margin-left: 2%}
+    15.3841%{margin-left: 4%}
+    23.076%{margin-left: 4%}
+    23.0761%{margin-left: 6%}
+    30.769%{margin-left: 6%}
+    30.7691%{margin-left: 4%}
+    38.461%{margin-left: 4%}
+    38.4611%{margin-left: 2%}
+    46.153%{margin-left: 2%}
+    46.1531%{margin-left: 0}
+    53.846%{margin-left: 0}
+    53.8461%{margin-left: -2%}
+    61.538%{margin-left: -2%}
+    61.5381%{margin-left: -4%}
+    69.230%{margin-left: -4%}
+    69.2301%{margin-left: -6%}
+    76.923%{margin-left: -6%}
+    76.9231%{margin-left: -4%}
+    84.615%{margin-left: -4%}
+    84.6151%{margin-left: -2%}
+    92.307%{margin-left: -2%}
+    92.3071%{margin-left: 0%}
+    100%{margin-left: 0%}
+}
+
+.game-explanation {
+    position: absolute;
+    top: 820px;
+}
+.DXX, .DXY {
+    display: none;
+}
+
+.shetou {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    background-color: #4b7617;
+}
+
+.shetou::after {
+    content: "";
+    background: url('img/shetou.png') no-repeat center;
+    /*opacity: 0.5;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 10 !important;
+    background-size: 911% 132%;
+    animation: shetou 0.5s infinite;
+}
+
+@keyframes shetou {
+    0%{background-position: 0.877% 28.571%}
+    75%{background-position: 0.877% 28.571%}
+    75.001%{background-position: 14.912% 50%}
+    100%{background-position: 14.912% 50%}
+}
