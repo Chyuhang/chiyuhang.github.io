@@ -8,6 +8,66 @@ body {
 .title {
     /*margin: auto;*/
 }
+.shang {
+    position: absolute;
+    top: 10px;
+    left: 227px;
+    width: 200px;
+    height: 150px;
+    font-size: 117px;
+    font-family: cursive;
+    border-radius: 50px;
+    border: 0;
+}
+.shang:hover {
+    background-color: darkseagreen;
+    cursor: pointer;
+}
+.xia {
+    position: absolute;
+    top: 182px;
+    left: 227px;
+    width: 200px;
+    height: 150px;
+    font-size: 117px;
+    font-family: cursive;
+    border-radius: 50px;
+    border: 0;
+}
+.xia:hover {
+    background-color: darkseagreen;
+    cursor: pointer;
+}
+.zuo {
+    position: absolute;
+    top: 84px;
+    left: 14px;
+    width: 200px;
+    height: 150px;
+    font-size: 117px;
+    font-family: cursive;
+    border-radius: 50px;
+    border: 0;
+}
+.zuo:hover {
+    background-color: darkseagreen;
+    cursor: pointer;
+}
+.you {
+    position: absolute;
+    top: 84px;
+    left: 435px;
+    width: 200px;
+    height: 150px;
+    font-size: 117px;
+    font-family: cursive;
+    border-radius: 50px;
+    border: 0px;
+}
+.you:hover {
+    background-color: darkseagreen;
+    cursor: pointer;
+}
 .silver {
     color: silver;
 }
